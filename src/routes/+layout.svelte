@@ -1,6 +1,18 @@
 <script>
 	import '../app.css';
 	import Icon from '@iconify/svelte';
+	import { onNavigate } from '$app/navigation';
+
+	onNavigate((navigation) => {
+		if (!document.startViewTransition) return;
+
+		return new Promise((resolve) => {
+			document.startViewTransition(async () => {
+				resolve();
+				await navigation.complete;
+			});
+		});
+	});
 </script>
 
 <div class="bg-base-200 min-h-screen">
