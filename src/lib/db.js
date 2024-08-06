@@ -1,4 +1,4 @@
-import postgres from 'postgres';
+import postgres from "postgres";
 
 const sql = postgres(process.env.PQADRR);
 await sql`CREATE TABLE IF NOT EXISTS article (

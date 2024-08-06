@@ -1,14 +1,19 @@
 <script>
-	import ArticleCard from '$lib/components/ArticleCard.svelte';
-	export let data;
+  import ArticleCard from "$lib/components/ArticleCard.svelte";
+  export let data;
 </script>
 
 <svelte:head>
-	<title>Agrou Shop - Articles</title>
+  <title>Agrou Shop - Articles</title>
 </svelte:head>
 
-<div class="flex flex-wrap gap-5 m-5">
-	{#each data.articles as article}
-		<ArticleCard {article} />
-	{/each}
+<div
+  class="m-4 gap-3 grid
+  grid-cols-2 sm:grid-cols-3
+  md:grid-cols-4 lg:grid-cols-6
+  2xl:grid-cols-8"
+>
+  {#each data.articles as article}
+    <ArticleCard {article} />
+  {/each}
 </div>
