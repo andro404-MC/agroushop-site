@@ -3,24 +3,45 @@
   let fallback = "https://untemi.sirv.com/agrou/no-img.webp";
 </script>
 
-<div class="flex flex-col bg-base-100 rounded-md shadow-md overflow-hidden">
+<div class="flex flex-col bg-base-100 overflow-hidden justify-center">
   <div class="relative w-full h-fit p-2">
     {#if article.discrate > 0}
       <span class="absolute top-0 right-0 badge badge-warning">
         -{article.discrate}%
       </span>
     {/if}
-    <img
-      class="m-auto w-full border-2 rounded-md"
-      src={article.picurl}
-      onerror="this.onerror=null;this.src='{fallback}'"
-      alt="article"
-    />
+    {#if !article.picurl}
+      <img
+        class="m-auto w-full border-2 rounded-md"
+        src={fallback}
+        alt="article"
+      />
+    {:else}
+      <img
+        class="m-auto w-full h-auto aspect-square border-2 rounded-md"
+        src={article.picurl}
+        on:error={(ev) => (ev.target.src = fallback)}
+        alt="article"
+      />
+    {/if}
   </div>
 
-  <div class="flex flex-col p-2 gap-2">
-    <div class="font-karla truncate">
+  <div class="flex flex-col p-2 gap-1">
+    <div class="font-karla truncate line-clamp-2">
       {article.name}
+    </div>
+
+    <div>
+      {#if article.discrate > 0}
+        <span class="font-karla text-xl text-red-800">
+          {article.price - (article.price * article.discrate) / 100} DH
+        </span>
+        <span class="font-karla text-md line-through text-zinc-500"
+          >{article.price}</span
+        >
+      {:else}
+        <span class="font-karla text-xl"> {article.price} DH</span>
+      {/if}
     </div>
 
     <div class="flex flex-wrap gap-2">
@@ -29,9 +50,13 @@
     </div>
 
     <div>
-      {#if article.stock <= 0}
-        <div class="badge badge-ghost w-full">rupture de stock</div>
-      {/if}
+      <div class="badge badge-ghost w-full">
+        {#if !article.stock}
+          out of stock
+        {:else}
+          {article.stock} left
+        {/if}
+      </div>
     </div>
   </div>
 </div>
