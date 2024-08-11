@@ -2,6 +2,8 @@
   import "../app.css";
   import Icon from "@iconify/svelte";
   import { onNavigate } from "$app/navigation";
+  import NProgress from "nprogress";
+  import { navigating } from "$app/stores";
 
   onNavigate((navigation) => {
     if (!document.startViewTransition) return;
@@ -13,10 +15,24 @@
       });
     });
   });
+
+  NProgress.configure({
+    showSpinner: false,
+    minimum: 0.16,
+  });
+
+  $: {
+    if ($navigating) {
+      NProgress.start();
+    }
+    if (!$navigating) {
+      NProgress.done();
+    }
+  }
 </script>
 
-<div class="min-h-screen bg-base-200">
-  <div class="navbar sticky top-0 z-50 bg-base-100 shadow-lg">
+<div class="min-h-screen bg-base-300">
+  <div class="navbar min-h-fit fixed top-0 z-10 bg-base-100 shadow-sm">
     <div class="flex-1">
       <a href="/" class="btn btn-ghost text-xl">Agrou Shop</a>
     </div>

@@ -25,6 +25,7 @@
   },
   "type": "module",
   "dependencies": {
+    "nprogress": "^0.2.0",
     "postgres": "^3.4.4",
     "prettier-plugin-organize-imports": "^4.0.0",
     "prettier-plugin-tailwindcss": "^0.6.5"
