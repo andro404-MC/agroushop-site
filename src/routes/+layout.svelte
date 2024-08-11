@@ -31,21 +31,19 @@
   }
 </script>
 
-<div class="min-h-screen bg-base-300">
-  <div class="navbar min-h-fit fixed top-0 z-10 bg-base-100 shadow-sm">
-    <div class="flex-1">
-      <a href="/" class="btn btn-ghost text-xl">Agrou Shop</a>
-    </div>
-
-    <div class="flex-none">
-      <a href="/shop" class="btn btn-square btn-ghost">
-        <Icon width="1.4rem" icon="ic:outline-shopping-cart" />
-      </a>
-      <a href="/about" class="btn btn-square btn-ghost">
-        <Icon width="1.4rem" icon="ic:outline-info" />
-      </a>
-    </div>
+<div class="navbar min-h-fit fixed top-0 z-10 bg-base-100 shadow-sm">
+  <div class="flex-1">
+    <a href="/" class="btn btn-ghost text-xl">Agrou Shop</a>
   </div>
 
-  <slot />
+  <div class="flex-none">
+    <a href="/shop" class="btn btn-square btn-ghost">
+      <Icon width="1.4rem" icon="ic:outline-shopping-cart" />
+    </a>
+    <a href="/about" class="btn btn-square btn-ghost">
+      <Icon width="1.4rem" icon="ic:outline-info" />
+    </a>
+  </div>
 </div>
+
+<slot />

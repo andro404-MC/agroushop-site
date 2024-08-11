@@ -3,6 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  @apply bg-base-300 min-h-screen h-fit;
+}
+
 /* Make clicks pass-through */
 #nprogress {
   pointer-events: none;
