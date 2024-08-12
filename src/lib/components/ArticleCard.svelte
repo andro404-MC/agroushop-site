@@ -3,7 +3,10 @@
   let fallback = "https://untemi.sirv.com/agrou/no-img.webp";
 </script>
 
-<div class="flex flex-col bg-base-100 overflow-hidden justify-center">
+<div
+  style="view-transition-name: card-{article.id};"
+  class="flex flex-col bg-base-100 overflow-hidden justify-center"
+>
   <div class="relative w-full h-fit p-2">
     {#if article.discrate > 0}
       <span class="absolute top-0 right-0 badge badge-warning">

@@ -7,6 +7,10 @@ body {
   @apply bg-base-300 min-h-screen h-fit;
 }
 
+:root {
+  view-transition-name: none;
+}
+
 /* Make clicks pass-through */
 #nprogress {
   pointer-events: none;

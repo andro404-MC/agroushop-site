@@ -6,7 +6,10 @@
 </script>
 
 <div class="sm:px-16 sm:pb-5 pt-[64px] sm:pt-20">
-  <div class="flex flex-col bg-base-100 sm:rounded-lg shadow-2xl p-5">
+  <div
+    style="view-transition-name: card-{data.id};"
+    class="flex flex-col bg-base-100 sm:rounded-lg shadow-2xl p-5"
+  >
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
       <div class="w-full h-fit">
         {#if !data.picurl}
