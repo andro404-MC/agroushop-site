@@ -7,7 +7,7 @@ export async function load({ params }) {
 
   if (!isNaN(articleId)) {
     let article =
-      await sql`SELECT id,name,price,stock,category,picurl,discrate,description,created_at
+      await sql`SELECT id,name,price,stock,category,picurl,discrate,description
                 FROM article
                 WHERE id=${articleId}`;
 

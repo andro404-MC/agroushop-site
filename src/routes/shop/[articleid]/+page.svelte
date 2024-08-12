@@ -1,4 +1,7 @@
 <script>
+  import { PUBLIC_WAT_NUM } from "$env/static/public";
+  import Icon from "@iconify/svelte";
+
   /** @type {import('./$types').PageData} */
   export let data;
 
@@ -67,6 +70,14 @@
         <div class="font-karla text-2xl">
           {data.name}
         </div>
+
+        <a
+          target="_blank"
+          href="https://wa.me/{PUBLIC_WAT_NUM}?text=I am interested in {data.name}"
+          class="btn btn-success w-full text-xl"
+        >
+          <Icon class="text-2xl float-left" icon="ic:baseline-whatsapp" /> Buy Now
+        </a>
 
         <div class="whitespace-pre-line font-karla">
           {data.description}
