@@ -8,6 +8,10 @@
   let fallback = "https://untemi.sirv.com/agrou/no-img.webp";
 </script>
 
+<svelte:head>
+  <title>PC-IA - {data.name}</title>
+</svelte:head>
+
 <div class="sm:px-16 sm:py-6">
   <div
     style="view-transition-name: card-{data.id};"

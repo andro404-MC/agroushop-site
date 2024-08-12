@@ -33,9 +33,9 @@
 
 <div class="navbar min-h-fit fixed top-0 z-10 bg-base-100 shadow-sm">
   <div class="flex-1">
-    <a href="/" class="btn btn-ghost text-3xl font-bold italic text-red-600"
-      >CASA-PC</a
-    >
+    <a href="/" class="btn btn-ghost text-3xl font-bold italic text-red-600">
+      PC-IA
+    </a>
   </div>
 
   <div class="flex-none">

@@ -1,5 +1,5 @@
 <svelte:head>
-  <title>CASA-PC</title>
+  <title>PC-IA</title>
 </svelte:head>
 
 <div
@@ -10,7 +10,7 @@
   <div class="hero-content text-center text-neutral-content">
     <div class="max-w-lg">
       <div class="bg-secondary py-6 px-14 rounded-3xl shadow-2xl">
-        <h1 class="mb-5 text-5xl font-bold italic text-red-600">CASA-PC</h1>
+        <h1 class="mb-5 text-5xl font-bold italic text-red-600">PC-IA</h1>
         <p class="mb-5 text-md">
           Bienvenue sur notre site, votre partenaire de confiance pour
           l'assistance à distance, la création de sites web, la maintenance

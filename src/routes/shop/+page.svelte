@@ -4,7 +4,7 @@
 </script>
 
 <svelte:head>
-  <title>Agrou Shop - Articles</title>
+  <title>PC-IA - Articles</title>
 </svelte:head>
 
 <div
