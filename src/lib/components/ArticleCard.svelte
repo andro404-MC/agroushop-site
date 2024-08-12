@@ -5,7 +5,7 @@
 
 <div
   style="view-transition-name: card-{article.id};"
-  class="flex flex-col bg-base-100 overflow-hidden justify-center"
+  class="flex flex-col h-full bg-base-100 overflow-hidden"
 >
   <div class="relative w-full h-fit p-2">
     {#if article.discrate > 0}
