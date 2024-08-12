@@ -33,7 +33,7 @@
 </div>
 
 <div class="card md:card-side bg-base-300 shadow-xl">
-  <figure class="shrink-0 m-2 md:m-0">
+  <figure class="shrink-0 m-2 md:m-0 shadow-2xl w-fit mx-auto">
     <img
       class="md:rounded-none rounded-2xl shadow-2xl"
       src="https://untemi.sirv.com/agrou/mater.webp"
@@ -58,7 +58,7 @@
 <div class="hero h-[5px] bg-primary"></div>
 
 <div class="card md:card-side md:flex-row-reverse bg-base-300 shadow-xl">
-  <figure class="shrink-0 m-2 md:m-0">
+  <figure class="shrink-0 m-2 md:m-0 shadow-2xl w-fit mx-auto">
     <img
       class="md:rounded-none rounded-2xl shadow-2xl"
       src="https://untemi.sirv.com/agrou/site.webp"
@@ -81,7 +81,7 @@
 <div class="hero h-[5px] bg-primary"></div>
 
 <div class="card md:card-side bg-base-300 shadow-xl">
-  <figure class="shrink-0 m-2 md:m-0">
+  <figure class="shrink-0 m-2 md:m-0 shadow-2xl w-fit mx-auto">
     <img
       class="md:rounded-none rounded-2xl shadow-2xl"
       src="https://untemi.sirv.com/agrou/mat.webp"
@@ -104,7 +104,7 @@
 <div class="hero h-[5px] bg-primary"></div>
 
 <div class="card md:card-side md:flex-row-reverse bg-base-300 shadow-xl">
-  <figure class="shrink-0 m-2 md:m-0">
+  <figure class="shrink-0 m-2 md:m-0 shadow-2xl w-fit mx-auto">
     <img
       class="md:rounded-none rounded-2xl shadow-2xl"
       src="https://untemi.sirv.com/agrou/assi.webp"
