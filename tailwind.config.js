@@ -5,6 +5,7 @@ export default {
     extend: {
       fontFamily: {
         karla: ['"Karla"', "sans-serif"],
+        kanit: ['"Kanit"', "sans-serif"],
       },
     },
   },

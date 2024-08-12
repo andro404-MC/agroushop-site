@@ -8,7 +8,7 @@
 </svelte:head>
 
 <div
-  class="pt-[64px] m-4 gap-3 grid
+  class="m-4 gap-3 grid
   grid-cols-2 sm:grid-cols-3
   md:grid-cols-4 lg:grid-cols-6
   2xl:grid-cols-8"

@@ -33,17 +33,18 @@
 
 <div class="navbar min-h-fit fixed top-0 z-10 bg-base-100 shadow-sm">
   <div class="flex-1">
-    <a href="/" class="btn btn-ghost text-xl">Agrou Shop</a>
+    <a href="/" class="btn btn-ghost text-3xl font-bold italic text-red-600"
+      >CASA-PC</a
+    >
   </div>
 
   <div class="flex-none">
     <a href="/shop" class="btn btn-square btn-ghost">
       <Icon width="1.4rem" icon="ic:outline-shopping-cart" />
     </a>
-    <a href="/about" class="btn btn-square btn-ghost">
-      <Icon width="1.4rem" icon="ic:outline-info" />
-    </a>
   </div>
 </div>
 
-<slot />
+<div class="pt-[64px]">
+  <slot />
+</div>

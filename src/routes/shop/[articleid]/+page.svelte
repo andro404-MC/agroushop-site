@@ -8,7 +8,7 @@
   let fallback = "https://untemi.sirv.com/agrou/no-img.webp";
 </script>
 
-<div class="sm:px-16 sm:pb-5 pt-[64px] sm:pt-20">
+<div class="sm:px-16 sm:py-6">
   <div
     style="view-transition-name: card-{data.id};"
     class="flex flex-col bg-base-100 sm:rounded-lg shadow-2xl p-5"
