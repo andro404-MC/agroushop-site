@@ -25,9 +25,18 @@
           et vous offre du matériel informatique de qualité.
         </p>
       </div>
+
+      <a
+        href="#services"
+        class="animate-bounce btn rounded-full btn-square mt-6"
+      >
+        <Icon class="text-2xl" icon="ic:baseline-arrow-downward" />
+      </a>
     </div>
   </div>
 </div>
+
+<section id="services" />
 
 <div class="hero h-[100px] bg-primary">
   <div class="hero-content text-center text-neutral-content">

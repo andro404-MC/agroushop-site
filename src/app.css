@@ -13,6 +13,11 @@ body {
   view-transition-name: none;
 }
 
+section {
+  padding-top: 60px;
+  margin-top: -60px;
+}
+
 /* Make clicks pass-through */
 #nprogress {
   pointer-events: none;

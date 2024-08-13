@@ -31,7 +31,7 @@
   }
 </script>
 
-<div class="navbar min-h-fit fixed top-0 z-10 bg-base-100 shadow-sm">
+<div class="navbar min-h-fit sticky top-0 z-10 bg-base-100 shadow-sm">
   <div class="flex-1">
     <a href="/" class="btn btn-ghost text-3xl font-bold italic text-red-600">
       PC-IA
@@ -45,6 +45,4 @@
   </div>
 </div>
 
-<div class="pt-[64px]">
-  <slot />
-</div>
+<slot />
