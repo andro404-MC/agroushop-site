@@ -4,11 +4,11 @@
 </script>
 
 <svelte:head>
-  <title>PC-IA - Articles</title>
+  <title>INFORMATIQUE-IA - Articles</title>
 </svelte:head>
 
 <div
-  class="m-4 gap-3 grid
+  class="m-4 gap-3 grid min-h-screen
   grid-cols-2 sm:grid-cols-3
   md:grid-cols-4 lg:grid-cols-6
   2xl:grid-cols-8"

@@ -1,4 +1,5 @@
 <script>
+  import { PUBLIC_WAT_NUM } from "$env/static/public";
   import "../app.css";
   import Icon from "@iconify/svelte";
   import { onNavigate } from "$app/navigation";
@@ -34,7 +35,7 @@
 <div class="navbar min-h-fit sticky top-0 z-10 bg-base-100 shadow-sm">
   <div class="flex-1">
     <a href="/" class="btn btn-ghost text-3xl font-bold italic text-red-600">
-      PC-IA
+      INFORMATIQUE-IA
     </a>
   </div>
 
@@ -46,3 +47,21 @@
 </div>
 
 <slot />
+
+<footer class="footer bg-neutral text-neutral-content p-10">
+  <aside>
+    <p class="select-none text-3xl font-bold italic text-red-600">
+      INFORMATIQUE-IA
+    </p>
+    <p>address</p>
+  </aside>
+  <nav>
+    <h6 class="footer-title">Social</h6>
+    <div class="grid grid-flow-col gap-4">
+      <a target="_blank" href="https://wa.me/{PUBLIC_WAT_NUM}">
+        <Icon class="text-2xl" icon="ic:baseline-whatsapp" />
+      </a>
+      <a href="#"><Icon class="text-2xl" icon="ic:baseline-facebook" /></a>
+    </div>
+  </nav>
+</footer>

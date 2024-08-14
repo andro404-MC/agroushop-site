@@ -4,7 +4,7 @@
 </script>
 
 <svelte:head>
-  <title>PC-IA</title>
+  <title>INFORMATIQUE-IA</title>
 </svelte:head>
 
 <div

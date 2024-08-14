@@ -9,7 +9,7 @@
 </script>
 
 <svelte:head>
-  <title>PC-IA - {data.name}</title>
+  <title>INFORMATIQUE-IA - {data.name}</title>
 </svelte:head>
 
 <div class="sm:px-16 sm:py-6">
