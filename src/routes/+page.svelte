@@ -17,7 +17,9 @@
   >
     <div class="w-screen sm:max-w-lg">
       <div class="bg-secondary py-6 px-5 sm:px-14 sm:rounded-3xl shadow-2xl">
-        <h1 class="mb-5 text-5xl font-bold italic text-red-600">PC-IA</h1>
+        <h1 class="mb-5 text-5xl font-bold italic text-red-600">
+          INFORMATIQUE-IA
+        </h1>
         <p class="mb-5 text-md">
           Nous proposons une assistance à distance, la création de sites web, et
           la maintenance informatique pour garder vos systèmes au top. On assure
