@@ -16,8 +16,8 @@
     class="hero-content w-screen p-0 sm:p-4 text-center text-neutral-content"
   >
     <div class="w-screen sm:max-w-lg">
-      <div class="bg-secondary py-6 px-5 sm:px-14 sm:rounded-3xl shadow-2xl">
-        <h1 class="mb-5 text-5xl font-bold italic text-red-600">
+      <div class="p-2">
+        <h1 class="mb-5 text-4xl md:text-5xl font-bold italic text-red-600">
           INFORMATIQUE-IA
         </h1>
         <p class="mb-5 text-md">
