@@ -53,7 +53,7 @@
     <p class="select-none text-3xl font-bold italic text-red-600">
       INFORMATIQUE-IA
     </p>
-    <p>address</p>
+    <p>Elqods s.b casablanca</p>
   </aside>
   <nav>
     <h6 class="footer-title">Social</h6>

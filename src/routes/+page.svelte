@@ -24,7 +24,7 @@
           Nous proposons une assistance à distance, la création de sites web, et
           la maintenance informatique pour garder vos systèmes au top. On assure
           aussi la sécurité de vos données avec des solutions de cybersécurité
-          et vous offre du matériel informatique de qualité.
+          et on vous offre du matériel informatique de qualité.
         </p>
       </div>
 
