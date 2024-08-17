@@ -62,6 +62,7 @@
         <Icon class="text-2xl" icon="ic:baseline-whatsapp" />
       </a>
       <a
+        target="_blank"
         href="https://web.facebook.com/people/I-A-imformatique/61555742550996/"
       >
         <Icon class="text-2xl" icon="ic:baseline-facebook" />
